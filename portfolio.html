@@ -1,59 +1,51 @@
-<!doctype html>
-<html lang="en-us">
+<!Doctype html>
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio | Your Mia Seneca</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <title>My Basic Portfolio</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
+
 <body>
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Mia Seneca</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <header class="header-wrapper">
+    <div class="name">
+      <h1>Mia Seneca</h1>
     </div>
+    <nav class="nav">
+      <a href="index.html">About</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="portfolio.html">Portfolio</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
-  <div id="main-container" class="container">
-    <section class="main-section">
+
+  <div class="content-wrapper clearfix">
+    <section class="content-left">
       <h1>Portfolio</h1>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
-        <h3>Hangman</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-        <h3>Rock Paper Scissors</h3>
+      <hr />
+      <div class="box-set">
+        <figure class="box box1"><span class="textbox">Social Media Platform</span></figure>
+        <figure class="box box2"><span class="textbox">RPG</span></figure>
+        <figure class="box box3"><span class="textbox">Hangman</span></figure>
+        <figure class="box box4"><span class="textbox">Lazy</span></figure>
+        <figure class="box box5"><span class="textbox">Mobile</span></figure>
       </div>
     </section>
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect with Me</h2>
-        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
-      </div>
-    </section>
+    <aside class="content-right">
+      <h2>Connect with Me</h2>
+      <hr />
+      <a href="https://github.com/BLKOPL" target="_blank"><img src="assets/images/gith.png" alt="github"/></a>
+      <a href="https://www.linkedin.com" target="_blank"><img src="assets/images/in.png" alt="linkedin"/></a>
+      <a href="https://stackexchange.com" target="_blank"><img src="assets/images/sto.png" alt="stackoverflow"/></a>
+    </aside>
   </div>
-  <footer>
-    <div class="container">
-      Copyright &copy; 2017 Mia Seneca
-    </div>
+
+  <footer class="footer">
+    Copyright &copy; 2017 Mia Seneca
   </footer>
+
 </body>
+
 </html>
